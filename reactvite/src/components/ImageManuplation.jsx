@@ -25,7 +25,6 @@ function ImageManipulation() {
         <div>
             <h2>Image Manipulation</h2>
             <div style={{ backgroundColor: `rgb(${red}, ${green}, ${blue})`, padding: '20px', display: 'inline-block' }}>
-                {/* Applied catHeight and catWidth to the image */}
                 <img src={cat} alt="CAT" style={{ height: `${catHeight}px`, width: `${catWidth}px` }} />
             </div>
             <div>
